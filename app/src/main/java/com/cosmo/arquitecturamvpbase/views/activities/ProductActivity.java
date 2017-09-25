@@ -43,6 +43,13 @@ public class ProductActivity extends BaseActivity<ProductPresenter> implements I
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        getPresenter().validateInternetProduct();
+
+    }
+
+    @Override
     public void showProductList(final ArrayList<Product> productArrayList) {
         runOnUiThread(new Runnable() {
             @Override

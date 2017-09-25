@@ -9,4 +9,5 @@ public interface IBaseView {
 
     public  void showProgress(int message);
     public  void hideProgress();
+    public void  closeActivity();
 }

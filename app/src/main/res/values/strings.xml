@@ -5,4 +5,14 @@
     <string name="product_quantity">Cantidad</string>
     <string name="product_price">Precio</string>
     <string name="loading_message">Cargando...</string>
+    <string name="Nombre">Nombre</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_cantidad">Cantidad</string>
+    <string name="hint_precio">Precio</string>
+    <string name="crear">Crear</string>
+    <string name="validate_internet">:: Mensaje ::</string>
+    <string name="correct">:: todo ok ::</string>
+    <string name="incorrect">:: Error nada ok :::</string>
+    <string name="eliminadaEmpanada">:: Eliminado Exitosamente ::</string>
 </resources>
